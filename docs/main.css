@@ -1,10 +1,14 @@
 body {
  background: white;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    margin: 0 auto;
-    max-width: 80%;
-    padding: 2em 2em 4em;
+ box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+ margin: 0 auto;
+ width: 80%;
+ 
     
+}
+.maincontent {
+  
+  padding: 2em 2em 4em;
 }
 h2 {
 
@@ -19,14 +23,16 @@ address {
 }
 .navbar {
   min-width: max-content;
+ 
   background-color: rgb(0, 107, 179);
   height: 40px;
-  
+  position: sticky;  top: 0; 
   
 }
 .mainheader {
 		text-align: left; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
 }
 h1 {
   color: navy;
