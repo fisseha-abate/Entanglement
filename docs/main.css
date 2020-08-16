@@ -15,6 +15,11 @@ h2 {
     color: navy;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 } 
+h3 {
+
+  color:rgb(65, 64, 64);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
 address {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   
