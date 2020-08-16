@@ -23,12 +23,16 @@ h3 {
 address {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+nav{
+  position: fixed;
+}
 .navbar {
   width: 100%;
   background-color: rgb(0, 107, 179);
   height: 40px;
   position: sticky;  top: -0.1px; 
   box-shadow: 0 0 2px rgba(74, 46, 202, 0.253);
+  
 }
 .header{
   padding-top: 30px;
@@ -55,11 +59,15 @@ p{
   font-size: 17px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
- img {
+ .profimg {
   width: 250px; 
   height: 100%; 
   object-fit: scale-down; 
   border: 1px solid #ddd;
+}
+.pic {
+  height: 700%;
+  width: 70%;
 }
 figure{
   padding-top: 20px;
@@ -92,11 +100,11 @@ figure{
  }
  
  .mainitemtext {
-  color: white;
-   
+  color: white; 
   text-decoration: none;
   display: block; 
   background-color: rgb(0, 107, 179);
+  
  }
  
  .mainitemtexthover a:hover {
