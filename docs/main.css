@@ -28,7 +28,7 @@ address {
   background-color: rgb(0, 107, 179);
   height: 40px;
   position: sticky;  top: -0.1px; 
-  
+  box-shadow: 0 0 2px rgba(74, 46, 202, 0.253);
 }
 .header{
   padding-top: 30px;
