@@ -82,7 +82,8 @@ figure{
  }
  
  .mainitemtexthover a:hover {
-  background-color:lightblue;
+  background-color:rgba(109, 7, 243, 0.466);
+  
  }
  
  .dropitem {
