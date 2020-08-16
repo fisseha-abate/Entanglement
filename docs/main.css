@@ -1,13 +1,13 @@
 body {
  background: white;
- box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+ box-shadow: 0 0 2px rgba(74, 46, 202, 0.253);
  margin: 0 auto;
  width: 80%;
  
     
 }
 .maincontent {
-  
+  background-color: rgb(245, 244, 244);
   padding: 2em 2em 4em;
 }
 h2 {
@@ -22,23 +22,29 @@ h3 {
 } 
 address {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
-  
-
 }
 .navbar {
-  min-width: max-content;
- 
+  width: 100%;
   background-color: rgb(0, 107, 179);
   height: 40px;
-  position: sticky;  top: 0; 
+  position: sticky;  top: -0.1px; 
   
 }
-.mainheader {
-		text-align: left; 
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  width: 100%;
+.header{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgb(53, 53, 88);
+  margin: 0px;
+  border: 0px;
 }
+.mainheader {
+    text-align: left; 
+    padding-left: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  margin: 0px;
+  color: white;
+}
+
 h1 {
   color: navy;
   
@@ -77,6 +83,7 @@ figure{
   line-height: 40px;
   text-align: center;
   font-size: 20px;
+  
  }
  ul {
   color: black;
@@ -85,7 +92,7 @@ figure{
  }
  
  .mainitemtext {
-  color:rgb(153, 255, 235);
+  color: white;
    
   text-decoration: none;
   display: block; 
