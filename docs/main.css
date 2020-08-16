@@ -124,9 +124,12 @@ figure{
  table, th, td {
 	border: 2px solid black;
 	border-collapse: collapse;
-	text-align: left;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 td, th {
-	padding: 5px 10px;
+  padding: 10px 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
 }
